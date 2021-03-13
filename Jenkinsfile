@@ -2,7 +2,9 @@ pipeline {
   agent any
   stages {
     stage("build") {
-      ech "build started"
+      steps {
+        ech "build started"
+      }
     }
   }
 }
